@@ -11,7 +11,7 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 
 function App() {
-  const url = "http://localhost:8080/pokemon";
+  const url = "https://pokemon-backend-2.onrender.com/pokemon";
 
   const [pokedex, setPokedex] = useState([]);
   const [fighter, setFighter] = useState(null);

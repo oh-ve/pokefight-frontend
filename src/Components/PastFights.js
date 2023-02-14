@@ -12,7 +12,7 @@ function PastFights({ pokedex }) {
     setTimeout(
       () =>
         axios
-          .get("http://localhost:8080/game/leaderboard")
+          .get("https://pokemon-backend-2.onrender.com/game/leaderboard")
           .then((res) => setFights(res.data.games.reverse()))
           .then(setLoading(false))
           .catch((e) => console.log(e)),

@@ -53,7 +53,7 @@ function Fight({ pokedex }) {
       }
     }
 
-    fetch("http://localhost:8080/game/save", {
+    fetch("https://pokemon-backend-2.onrender.com/game/save", {
       method: "POST",
       headers: {
         Accept: "application/json",
